@@ -44,5 +44,5 @@ void runVirus() {
 						exit(EXIT_FAILURE);
 					}
 			fclose(fp);
-			MessageBox(FindWindowA("ConsoleWindowClass", NULL), "Finish!", "Successful", 0x00000000L | 0x00000040L);
+			MessageBox(FindWindowA("ConsoleWindowClass", NULL), "Operations completed!", "Successful", 0x00000000L | 0x00000040L);
 }	
