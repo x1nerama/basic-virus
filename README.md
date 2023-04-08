@@ -1,7 +1,3 @@
 ## Basic virus with C
 
-Virüs'ün amacı basit. Sadece Debugger gizli olarak çalışarak Windows ortamında \AppData\Roaming içerisine haha.txt adlı bir text dosyası oluşturuyor ve içerisine 15000 kez "HAHA BEKO" yazdırıyor. Bu işlemlerin en sonunda "Operations completed!" adlı bir mesaj ile kullanıcıya işlemin bittiğini belirtiyor (gizli çalışması için MessageBox kaldırılabilir).
-
-&nbsp;
-
-**<windows.h>** kütüphanesine hakim olmak için yaptığım basit bir projedir. 
+The purpose of the virus is simple. Only the Debugger works secretly and creates a text file called haha.txt in \AppData\Roaming in the Windows environment and prints "HAHA BEKO" 15000 times. "Operations completed!" It tells the user that the process is finished (MessageBox can be removed to make it work hidden).
